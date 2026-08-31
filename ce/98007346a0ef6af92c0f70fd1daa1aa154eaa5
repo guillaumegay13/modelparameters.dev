@@ -1,0 +1,36 @@
+models/xai/grok-4.5-subscription.yaml
+  h_4314c622e2d856 43-44
+models/xai/grok-4.5.yaml
+  h_4314c622e2d856 43-44
+models/xai/grok-4.6-subscription.yaml
+  h_4314c622e2d856 1-60
+models/xai/grok-4.6.yaml
+  h_4314c622e2d856 6,43,45-55
+packages/modelparams-python/src/modelparams/_generated/catalog.json
+  h_4314c622e2d856 27517,27520,27595,27598,27625,27673,27677-27769
+packages/modelparams-python/src/modelparams/_generated/model_ids.py
+  h_4314c622e2d856 362,748
+packages/modelparams-python/src/modelparams/_generated/registry.py
+  h_4314c622e2d856 386
+packages/modelparams-python/src/modelparams/types/xai.py
+  h_4314c622e2d856 115,129,144,151-164,202
+packages/modelparams/src/generated/data.ts
+  h_4314c622e2d856 27522,27525,27600,27603,27630,27678,27682-27774
+packages/modelparams/src/generated/defaults.ts
+  h_4314c622e2d856 1774,1780,1786-1792
+packages/modelparams/src/generated/model-ids.ts
+  h_4314c622e2d856 360
+packages/modelparams/src/generated/params-by-id.ts
+  h_4314c622e2d856 2759,2767,2776-2784
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "ce98007346a0ef6af92c0f70fd1daa1aa154eaa5",
+  "prompts": {},
+  "humans": {
+    "h_4314c622e2d856": {
+      "author": "Guillaume Gay <guillaume.gay@protonmail.com>"
+    }
+  }
+}
