@@ -2237,6 +2237,15 @@ export type ParamsById = {
     seed: number;
     stop: string;
   };
+  "nvidia/laguna-xs-2.1": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
   "nvidia/llama-3.1-nemoguard-8b-topic-control": {
     temperature: number;
     top_p: number;
