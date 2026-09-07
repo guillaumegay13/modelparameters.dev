@@ -300,6 +300,7 @@ PARAM_TYPES: dict[ModelId, Any] = {
     "nvidia/deepseek-v4-pro-0813": nvidia.Deepseek_V4_Pro_0813Params,
     "nvidia/gemma-4-31b-it": nvidia.Gemma_4_31b_ItParams,
     "nvidia/gliner-pii": nvidia.Gliner_PiiParams,
+    "nvidia/gpt-oss-120b": nvidia.Gpt_Oss_120bParams,
     "nvidia/llama-3.1-nemoguard-8b-topic-control": nvidia.Llama_3_1_Nemoguard_8b_Topic_ControlParams,
     "nvidia/llama-3.1-nemotron-nano-8b-v1": nvidia.Llama_3_1_Nemotron_Nano_8b_V1Params,
     "nvidia/llama-3.1-nemotron-safety-guard-8b-v3": nvidia.Llama_3_1_Nemotron_Safety_Guard_8b_V3Params,
