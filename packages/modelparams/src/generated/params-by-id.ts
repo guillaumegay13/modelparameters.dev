@@ -2237,6 +2237,15 @@ export type ParamsById = {
     seed: number;
     stop: string;
   };
+  "nvidia/kimi-k3": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
   "nvidia/laguna-xs-2.1": {
     temperature: number;
     top_p: number;

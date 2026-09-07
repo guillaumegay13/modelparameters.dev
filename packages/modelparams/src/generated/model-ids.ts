@@ -275,6 +275,7 @@ export const MODEL_IDS = [
   "nvidia/gliner-pii",
   "nvidia/gpt-oss-120b",
   "nvidia/gpt-oss-20b",
+  "nvidia/kimi-k3",
   "nvidia/laguna-xs-2.1",
   "nvidia/llama-3.1-nemoguard-8b-topic-control",
   "nvidia/llama-3.1-nemotron-nano-8b-v1",

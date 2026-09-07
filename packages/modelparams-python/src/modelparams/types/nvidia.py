@@ -97,6 +97,21 @@ Gpt_Oss_20bParams = TypedDict(
 )
 setattr(Gpt_Oss_20bParams, "__pydantic_config__", _PARAMS_CONFIG)
 
+Kimi_K3Params = TypedDict(
+    "Kimi_K3Params",
+    {
+        "temperature": Annotated[float, Field(ge=0, le=1)],
+        "top_p": Annotated[float, Field(le=1)],
+        "max_tokens": Annotated[int, Field(ge=1, le=16384)],
+        "frequency_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "presence_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "seed": Annotated[int, Field(ge=0, le=18446744073709552000)],
+        "stop": str,
+    },
+    total=False,
+)
+setattr(Kimi_K3Params, "__pydantic_config__", _PARAMS_CONFIG)
+
 Laguna_Xs_2_1Params = TypedDict(
     "Laguna_Xs_2_1Params",
     {
@@ -351,6 +366,7 @@ __all__ = [
     "Gliner_PiiParams",
     "Gpt_Oss_120bParams",
     "Gpt_Oss_20bParams",
+    "Kimi_K3Params",
     "Laguna_Xs_2_1Params",
     "Llama_3_1_Nemoguard_8b_Topic_ControlParams",
     "Llama_3_1_Nemotron_Nano_8b_V1Params",
