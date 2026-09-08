@@ -10,6 +10,7 @@
 [![npm version](https://img.shields.io/npm/v/modelparams.svg)](https://www.npmjs.com/package/modelparams)
 [![npm downloads](https://img.shields.io/npm/dm/modelparams.svg)](https://www.npmjs.com/package/modelparams)
 [![PyPI version](https://img.shields.io/pypi/v/modelparams.svg)](https://pypi.org/project/modelparams/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/modelparams.svg)](https://pypi.org/project/modelparams/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Every API parameter each AI model accepts, in one place: `temperature`, `top_p`, `max_tokens` and the rest of the request body, with defaults, ranges and gating conditions. Not weight counts — see [model parameters vs. API parameters](https://modelparams.dev/model-parameters-vs-api-parameters). Inspired by [models.dev](https://github.com/anomalyco/models.dev); we use it at [Manifest](https://manifest.build/).
